@@ -10,8 +10,23 @@
 # then write them out to the screen. Show the total
 # as well.
 
+
 # HINTS
 # Get a random number between 1 and 6 by doing:
-# rand(1..6)
+#rand(1..6)
 # Log output to the screen with puts:
 # puts "Hello, world"
+
+#to get a random number
+puts rand(1..6)
+
+first_roll = rand(1..6)
+puts first_roll
+
+second_roll = rand(1..6)
+puts second_roll
+
+puts first_roll + second_roll
+
+total = first_roll + second_roll
+puts "Total is #(total)"

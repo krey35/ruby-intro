@@ -2,6 +2,9 @@
 # is the same as where this file is located and then run:
 # ruby 2-conditionals.rb
 
+# cd .. brings you back a directory
+# cd code-along gets you into the code-along database
+
 # Booleans
 
 # Boolean Expressions
