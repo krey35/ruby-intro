@@ -3,7 +3,7 @@
 # ruby 3-arrays.rb
 
 # EXERCISE
-# Create a "shared" shopping list with a friend
+# Create a "shared" shopping list with a 
 # Create two data structures - one for your list of stuff, and one
 # for your friend, e.g. you want milk, eggs, and bacon, and
 # your friend wants beer, cookies, and apples.
@@ -11,6 +11,18 @@
 # sort the result (alphabetically), and write it to the screen.
 # If the two lists contain the same item, only show it once!
 # Lastly, display each item in the list prepended with "buy ".
+
+kens_list = ["diapers", "wipes", "bath toys", "toilet paper"]
+brians_list = ["beer", "toilet paper", "tacos"]
+#puts bens_list.inspect
+
+###puts one array into another
+combined_list = kens_list + brians_list
+puts combined_list.inspect
+
+#### for more combos of arrays
+two_lists = [kens_list]
+two_lists.push[brians_list]
 
 # HINTS
 # Learn to read the documentation!
