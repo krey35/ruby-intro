@@ -2,6 +2,17 @@
 # is the same as where this file is located and then run:
 # ruby 2-conditionals.rb
 
+##gitpod /workspace/ruby-intro/code-along (main) $ cd ..
+##gitpod /workspace/ruby-intro (main) $ cd labs/
+##gitpod /workspace/ruby-intro/labs (main) $ 
+
+#gitpod /workspace/ruby-intro/labs (main) $ cd..
+#bash: cd..: command not found
+#gitpod /workspace/ruby-intro/labs (main) $ cd ..
+#gitpod /workspace/ruby-intro (main) $ cd labs
+#gitpod /workspace/ruby-intro/labs (main) $ 
+
+
 # EXERCISE
 # Continue your craps program (starting code below).
 # When executed, this program should print out two random
@@ -23,6 +34,7 @@
 die1 = rand(1..6)
 puts die1
 
+
 # 2. set the second die and write it to the screen
 die2 = rand(1..6)
 puts die2
@@ -30,3 +42,12 @@ puts die2
 # 3. create a variable for the total and write it to the screen
 total = die1 + die2
 puts "The total is: #{total}"
+
+if total == 7 || total = 11
+    puts "you win!"
+
+elsif total == 2 || total == 3 || total == 12
+    puts "you lose"
+    
+else puts "The point is: #{total}"
+end
