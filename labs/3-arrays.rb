@@ -18,11 +18,26 @@ brians_list = ["beer", "toilet paper", "tacos"]
 
 ###puts one array into another
 combined_list = kens_list + brians_list
-puts combined_list.inspect
+#puts combined_list.inspect
+#puts combined_list
+
+sorted_list = combined_list.sort
+#puts sorted_list
+
+sorted_unique_list = sorted_list.uniq
+#puts sorted_unique_list
+
+puts "buy #{sorted_unique_list[0]}" #buy bacon
+puts "buy #{sorted_unique_list[1]}" # buy beer
+puts "buy #{sorted_unique_list[2]}" # buy beyond meat
+puts "buy #{sorted_unique_list[3]}" # buy eggs
+puts "buy #{sorted_unique_list[4]}" # buy milk
+puts "buy #{sorted_unique_list[5]}" # buy oat milk
+puts "buy #{sorted_unique_list[6]}" # buy toilet paper
 
 #### for more combos of arrays
-two_lists = [kens_list]
-two_lists.push[brians_list]
+#two_lists = [kens_list]
+#two_lists.push[brians_list]
 
 # HINTS
 # Learn to read the documentation!
