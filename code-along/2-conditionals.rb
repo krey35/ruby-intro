@@ -16,17 +16,18 @@
 # Boolean Expressions
 # one equal sign is an assignment to a variable
 # two equal signs is checking the condition
-puts 3 == 2
-puts 3 == 3
+#puts 3 == 2 #returns false
+#puts 3 == 3 #returns true
 
 # If Conditional Logic
-if 3 > 2
-    puts "math works"
-end
+#if 3 > 2
+#    puts "math works"
+#end
 
-if 3 ==2
+if 3 == 2
     puts "I hope not"
 end
+
 # If/Else Conditional Logic
 your_team_score = 105
 other_team_score = 99
