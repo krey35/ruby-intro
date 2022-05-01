@@ -29,4 +29,4 @@ puts second_roll
 puts first_roll + second_roll
 
 total = first_roll + second_roll
-puts "Total is #(total)"
+puts "Total is #{total}"
