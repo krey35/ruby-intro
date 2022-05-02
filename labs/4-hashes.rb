@@ -29,4 +29,23 @@ bitcoin = gets.chomp
 bitcoin = bitcoin.to_f
 
 # 3. inspect the bitcoin_data hash
-# puts bitcoin_data
+ #puts bitcoin_data
+
+ # 4. now that we've dug into the hash and found the data we want,
+ #    lets assign it to a variable
+ usd_rate = bitcoin_data["bpi"]["USD"]["rate_float"]
+ puts usd_rate
+
+ # 5. calculate the value in USD of the user's bitcoin which is 
+ #    stored in the bitcoin variable:
+ usd_value = usd_rate * bitcoin
+ puts usd_value
+
+ # 6. display the output. Start by displaying the full sample text 
+ #      without any dynamic variables:
+ #puts "1 Bitcoin is valued at $38621.2815 USD."
+ #puts "Your Bitcoin is worth $77242.563."
+
+ # 7. now replace the parts of the text with the real data
+ puts " 1 Bitcoin is valued at $#{usd_rate} USD."
+ puts "Your Bitcoin is worth $#{usd_value}."
