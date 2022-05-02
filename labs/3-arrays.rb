@@ -27,13 +27,13 @@ sorted_list = combined_list.sort
 sorted_unique_list = sorted_list.uniq
 #puts sorted_unique_list
 
-puts "buy #{sorted_unique_list[0]}" #buy bacon
+puts "buy #{sorted_unique_list[0]}" # buy bath toys
 puts "buy #{sorted_unique_list[1]}" # buy beer
-puts "buy #{sorted_unique_list[2]}" # buy beyond meat
-puts "buy #{sorted_unique_list[3]}" # buy eggs
-puts "buy #{sorted_unique_list[4]}" # buy milk
-puts "buy #{sorted_unique_list[5]}" # buy oat milk
-puts "buy #{sorted_unique_list[6]}" # buy toilet paper
+puts "buy #{sorted_unique_list[2]}" # buy diapers
+puts "buy #{sorted_unique_list[3]}" # buy tacos
+puts "buy #{sorted_unique_list[4]}" # buy toilet paper
+puts "buy #{sorted_unique_list[5]}" # buy wipes
+puts "buy #{sorted_unique_list[6]}" # buy nil
 
 #### for more combos of arrays
 #two_lists = [kens_list]
